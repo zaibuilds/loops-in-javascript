@@ -11,3 +11,10 @@ for (let i = 0; i <= 20; i++) {
         console.log(i)
     }
 };
+
+// 3 - Print the sum of numbers from 1 to 100 using a for loop.
+
+for (let i = 0; i <= 100; i++) {
+    let sum = 0;
+   
+}
