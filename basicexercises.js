@@ -14,7 +14,10 @@ for (let i = 0; i <= 20; i++) {
 
 // 3 - Print the sum of numbers from 1 to 100 using a for loop.
 
-for (let i = 0; i <= 100; i++) {
-    let sum = 0;
-   
-}
+let totalSum = 0;
+
+for (let num = 1; num <=100; num++) {
+    totalSum += num;
+};
+
+console.log(`The total sum is ${totalSum}`);
