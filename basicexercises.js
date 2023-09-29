@@ -75,8 +75,9 @@ function checkPrime (n) {
         return "This number cannot be a prime"
     } else {
         for (let i = 1; i < n; i ++) {
-            n % i
+            return n % i
         }
-    
 }
 }
+
+checkPrime(5);
