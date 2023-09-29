@@ -69,3 +69,7 @@ for (let i = 10; i >= 0; i--) {
 }
 
 // 7 - Write a program to check if a number is prime using a for loop.
+
+function checkPrime (n) {
+    
+}
