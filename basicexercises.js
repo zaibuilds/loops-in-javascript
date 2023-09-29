@@ -71,5 +71,12 @@ for (let i = 10; i >= 0; i--) {
 // 7 - Write a program to check if a number is prime using a for loop.
 
 function checkPrime (n) {
+    if (n === 1 || n === 0) {
+        return "This number cannot be a prime"
+    } else {
+        for (let i = 1; i < n; i ++) {
+            n % i
+        }
     
+}
 }
