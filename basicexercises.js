@@ -14,13 +14,13 @@ for (let i = 0; i <= 20; i++) {
 
 // 3 - Print the sum of numbers from 1 to 100 using a for loop.
 
-// let totalSum = 0;
+let totalSum = 0;
 
-// for (let num = 1; num <=100; num++) {
-//     totalSum += num;
-// };
+for (let num = 1; num <=100; num++) {
+    totalSum += num;
+};
 
-// console.log(`The total sum is ${totalSum}`);
+console.log(`The total sum is ${totalSum}`);
 
 // 4 - Calculate and print the factorial of a number using a for loop
 
@@ -32,7 +32,7 @@ for (let i = 0; i <= 20; i++) {
 
 // console.log(`The factorial of 5 is ${number}`);
 
-// My fist attempt ^
+// My first attempt ^
 
 // function calculateFactorial (n) {
 //     if (n < 0) {
@@ -152,3 +152,4 @@ function isPrime(num) {
     console.log(`${number} is not a prime number.`);
   }
   
+// 8 - Print the Fibonacci series using a for loop.
